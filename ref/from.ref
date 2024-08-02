@@ -1,0 +1,2535 @@
+{
+    "language": "zh-tw",
+    "type": "basic",
+    "version": {
+        "atk": "v270",
+        "intent": "1.0"
+    },
+    "user_defined": {},
+    "utterance": {
+        "起點是臺北": {
+            "id": "e242544a-4969-48b2-9658-813d0323bddc",
+            "argument": [
+                {
+                    "pos": "ENTITY_oov",
+                    "text": "起點",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "AUX",
+                    "text": "是",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "LOCATION",
+                    "text": "臺北",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        },
+        "出發地在臺北": {
+            "id": "7bdb130f-e1e3-4006-b9af-796e3b1e3935",
+            "argument": [
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "出發地",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "在",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "LOCATION",
+                    "text": "臺北",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        },
+        "出發站是台北": {
+            "id": "a2a0f131-a72f-4a2a-8ddf-753f58351f68",
+            "argument": [
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "起航",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "啟程",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "啟航",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "出航",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "發車",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "起程",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "起飛",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "抵達",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "飛回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "飛抵",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "出發",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "站間",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "站側",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "站亦",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "站共",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "站到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "站出",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "原站",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "站約",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "站口",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "總站",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "站",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "AUX",
+                    "text": "是",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "LOCATION",
+                    "text": "台北",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        },
+        "我從臺北出發": {
+            "id": "e55c8cb0-9a12-4b0e-8461-a17390198b47",
+            "argument": [
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "我",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "從",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "LOCATION",
+                    "text": "臺北",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "起航",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "啟程",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "啟航",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "出航",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "發車",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "起程",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "起飛",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "抵達",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "飛回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "飛抵",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "出發",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "板橋到嘉義來回": {
+            "id": "7cf26cc6-0053-4010-8608-8ca81ba45138",
+            "argument": [
+                {
+                    "pos": "LOCATION",
+                    "text": "板橋",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "到了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到約",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到受",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到離",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到包",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到經過",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到隨",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到死",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到愛",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到經",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "到",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "LOCATION",
+                    "text": "嘉義",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "往返",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "直飛",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "往",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "經停",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "來往",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "加酒",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "直航",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "直達",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "繞經",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "來回",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "從南港出發的一張": {
+            "id": "11781850-152a-4545-a25b-9e99fd4f3607",
+            "argument": [
+                {
+                    "pos": "FUNC_inner",
+                    "text": "從",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "LOCATION",
+                    "text": "南港",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "起航",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "啟程",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "啟航",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "出航",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "發車",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "起程",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "起飛",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "抵達",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "飛回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "飛抵",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "出發",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "的",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_classifier",
+                    "text": "一張",
+                    "checked": true,
+                    "checkbox": false
+                }
+            ]
+        },
+        "一張從南港出發的票": {
+            "id": "af12a6db-3174-4b63-9173-f4e569cdabd4",
+            "argument": [
+                {
+                    "pos": "ENTITY_classifier",
+                    "text": "一張",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "從",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "LOCATION",
+                    "text": "南港",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "起航",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "啟程",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "啟航",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "出航",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "發車",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "起程",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "起飛",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "抵達",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "飛回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "飛抵",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "出發",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "的",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nounHead",
+                    "text": "票",
+                    "checked": false,
+                    "checkbox": true
+                }
+            ]
+        },
+        "從板橋到嘉義再回來": {
+            "id": "d3f1512f-9b9e-4984-87bf-0feebc2d5132",
+            "argument": [
+                {
+                    "pos": "FUNC_inner",
+                    "text": "從",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "LOCATION",
+                    "text": "板橋",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "到了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到約",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到受",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到離",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到包",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到經過",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到隨",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到死",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到愛",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到經",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "到",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "LOCATION",
+                    "text": "嘉義",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "MODIFIER",
+                    "text": "再",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "回去",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "回報",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "回擊",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "回敬",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "回返",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "回饋",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "返回",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "退回",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "上來",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "下來",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "來到",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "前來",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "報答",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "復返",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "恢復",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "歸來",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "進來",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "重返",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "過來",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "回老家",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "出去",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "回來了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "回家",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "回到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "回國",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "趕來",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "回來",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "由板橋抵達嘉義後回程": {
+            "id": "dced91b3-117c-4142-b91d-96588861289f",
+            "argument": [
+                {
+                    "pos": "FUNC_inner",
+                    "text": "由",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "LOCATION",
+                    "text": "板橋",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "到達",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "達到",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "達成",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "達標",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "來到",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "到來",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "抵達了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到達了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "飛離",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "飛抵",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "返抵",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "返回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "趕到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "前往",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到達",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "抵達",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "LOCATION",
+                    "text": "嘉義",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "RANGE_locality",
+                    "text": "後",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_oov",
+                    "text": "回程",
+                    "checked": false,
+                    "checkbox": true
+                }
+            ]
+        },
+        "從板橋前往嘉義後再返回": {
+            "id": "ffae0c05-be82-48b5-a522-92b1e1ff610e",
+            "argument": [
+                {
+                    "pos": "FUNC_inner",
+                    "text": "從",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "LOCATION",
+                    "text": "板橋",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "前進",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "挺進",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "推進",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "行進",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "進逼",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "趕回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "趕赴",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "親赴",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "遠赴",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "來到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "抵達",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "回到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到達",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "返回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "赴",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "前往",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "LOCATION",
+                    "text": "嘉義",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "RANGE_locality",
+                    "text": "後",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "MODIFIER",
+                    "text": "再",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "回來",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "回去",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "回報",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "回擊",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "回敬",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "回返",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "回饋",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "復返",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "折回",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "折返",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "返航",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "返還",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "退回",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "重返",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "報答",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "恢復",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "歸來",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "趕回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "飛回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "離開",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "返抵",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "前往",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "回到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "抵達",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "返回了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "送回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "逃回",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "返回",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "我要一張從左營北上的票": {
+            "id": "514d39f0-22f8-4901-9585-a7a54bac1723",
+            "argument": [
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "我",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "想要",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "需要",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "想拿",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "想買",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "渴望",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "渴求",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "餓了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "得照",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "需",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "更要",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "要去",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "真要",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "餓",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "要",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_classifier",
+                    "text": "一張",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "從",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "LOCATION",
+                    "text": "左營",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "南下",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "前往",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "進兵",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "入川",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "回援",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "東進",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "開赴",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "調兵",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "北進",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "西進",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "北上",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "的",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nounHead",
+                    "text": "票",
+                    "checked": false,
+                    "checkbox": true
+                }
+            ]
+        },
+        "我要一張從雲林到苗栗的票": {
+            "id": "d1669ef5-7a40-4429-8a83-d701a922b989",
+            "argument": [
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "我",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "想要",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "需要",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "想拿",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "想買",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "渴望",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "渴求",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "真要",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "得照",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "更要",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "要去",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "需",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "餓了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "餓",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "要",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_classifier",
+                    "text": "一張",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "從",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "LOCATION",
+                    "text": "雲林",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "到了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到約",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到受",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到離",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到包",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到經過",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到隨",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到死",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到愛",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到經",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "到",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "LOCATION",
+                    "text": "苗栗",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "的",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nounHead",
+                    "text": "票",
+                    "checked": false,
+                    "checkbox": true
+                }
+            ]
+        },
+        "請給我一張從南港出發的票": {
+            "id": "10dbec03-2312-4eb9-96f9-6e20ca96b5a8",
+            "argument": [
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "請求",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "拜託",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "要求",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "勸",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "懇請",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "呼籲",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "建議",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想請",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "有請",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "提醒",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "請",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "供給",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "帶給",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "提供",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "發放",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "資助",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "給對",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "分給",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "留給",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "交給",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "送給",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "給了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "給阿",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "予",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "給老",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "給聖",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "給",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "我",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_classifier",
+                    "text": "一張",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "從",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "LOCATION",
+                    "text": "南港",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "起航",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "啟程",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "啟航",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "出航",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "發車",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "起程",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "起飛",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "抵達",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "飛回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "飛抵",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "出發",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "的",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nounHead",
+                    "text": "票",
+                    "checked": false,
+                    "checkbox": true
+                }
+            ]
+        },
+        "從板橋出發到嘉義然後再回來": {
+            "id": "0b44164c-a0d3-4c02-938a-f1d7d24019c2",
+            "argument": [
+                {
+                    "pos": "FUNC_inner",
+                    "text": "從",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "LOCATION",
+                    "text": "板橋",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "起航",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "啟程",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "啟航",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "出航",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "發車",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "起程",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "起飛",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "抵達",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "飛回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "飛抵",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "出發",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "到了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到約",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到受",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到離",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到包",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到經過",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到隨",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到死",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到愛",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到經",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "到",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "LOCATION",
+                    "text": "嘉義",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "FUNC_inter",
+                    "text": "然後",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "MODIFIER",
+                    "text": "再",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "回去",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "回報",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "回擊",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "回敬",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "回返",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "回饋",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "返回",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "退回",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "上來",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "下來",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "來到",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "前來",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "報答",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "復返",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "恢復",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "歸來",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "進來",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "重返",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "過來",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "回老家",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "出去",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "回來了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "回家",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "回到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "回國",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "趕來",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "回來",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "我想買一張從雲林開往苗栗的票": {
+            "id": "b6db1ac4-5fd9-4037-acfd-d21bb8248a44",
+            "argument": [
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "我",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "想拿",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "想要",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "需要",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "愛吃",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "買",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "偷了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "賣過",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "買過",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "買了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "買不到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "買不起",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想吃",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "偷",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "賣",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "想買",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_classifier",
+                    "text": "一張",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "從",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "LOCATION",
+                    "text": "雲林",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "開了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "有開",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "發開",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "正開",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "站開",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "原開",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到開",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "集搬",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "開過",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "改開",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "開",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "往",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "LOCATION",
+                    "text": "苗栗",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "的",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nounHead",
+                    "text": "票",
+                    "checked": false,
+                    "checkbox": true
+                }
+            ]
+        },
+        "請給我一張從雲林到苗栗的車票": {
+            "id": "2d9662ea-0774-46bf-8afa-724d989bbbc0",
+            "argument": [
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "請求",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "拜託",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "要求",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "勸",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "懇請",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "呼籲",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "建議",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想請",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "有請",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "提醒",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "請",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "供給",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "帶給",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "提供",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "發放",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "資助",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "給對",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "分給",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "留給",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "交給",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "送給",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "給了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "給阿",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "予",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "給老",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "給聖",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "給",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "我",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_classifier",
+                    "text": "一張",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "從",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "LOCATION",
+                    "text": "雲林",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "到了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到約",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到受",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到離",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到包",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到經過",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到隨",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到死",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到愛",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到經",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "到",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "LOCATION",
+                    "text": "苗栗",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "的",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "車票",
+                    "checked": false,
+                    "checkbox": true
+                }
+            ]
+        }
+    },
+    "alias": {},
+    "prompt": {},
+    "document": []
+}

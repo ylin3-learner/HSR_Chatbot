@@ -1,0 +1,520 @@
+{
+    "language": "zh-tw",
+    "type": "basic",
+    "version": {
+        "atk": "v270",
+        "intent": "1.0"
+    },
+    "user_defined": {},
+    "utterance": {
+        "到高雄的商務艙": {
+            "id": "e3436c68-1fbe-4176-b0cd-2392b6293d37",
+            "argument": [
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "到了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到約",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到受",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到離",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到包",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到經過",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到隨",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到死",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到愛",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到經",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "到",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "LOCATION",
+                    "text": "高雄",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "的",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "商務艙",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        },
+        "搭乘商務艙前往高雄。": {
+            "id": "276673f2-69ef-40ed-931d-ce29f3e9458c",
+            "argument": [
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "乘坐",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "乘搭",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "乘車",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "搭坐",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "駛離",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "騎坐",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "搭船",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "搭上",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "搭著",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "搭",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "載送",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "搭到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "轉搭",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "改乘",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "搭乘",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "商務艙",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "前進",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "挺進",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "推進",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "行進",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "進逼",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "趕回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "趕赴",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "親赴",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "遠赴",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "來到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "抵達",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "回到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到達",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "返回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "赴",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "前往",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "LOCATION",
+                    "text": "高雄",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "PUNCTUATION",
+                    "text": "。",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "前往高雄的商務艙行程。": {
+            "id": "1ff19e80-5021-4672-8030-2dd693d3857e",
+            "argument": [
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "前進",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "挺進",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "推進",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "行進",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "進逼",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "趕回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "趕赴",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "親赴",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "遠赴",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "來到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "抵達",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "回到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到達",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "返回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "赴",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "前往",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "LOCATION",
+                    "text": "高雄",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "的",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "商務艙",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_noun",
+                    "text": "行程",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "PUNCTUATION",
+                    "text": "。",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "商務艙前往高雄的安排。": {
+            "id": "92f88ad0-dbe1-418a-b331-cdc40805a7dd",
+            "argument": [
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "商務艙",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "前進",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "挺進",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "推進",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "行進",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "進逼",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "趕回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "赴",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "親赴",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "返回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "來到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到達",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "抵達",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "回到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "趕赴",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "遠赴",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "前往",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "LOCATION",
+                    "text": "高雄",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "的",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "安排",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "PUNCTUATION",
+                    "text": "。",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        }
+    },
+    "alias": {},
+    "prompt": {},
+    "document": []
+}

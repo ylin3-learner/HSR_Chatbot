@@ -1,0 +1,2128 @@
+{
+    "language": "zh-tw",
+    "type": "basic",
+    "version": {
+        "atk": "v270",
+        "intent": "1.0"
+    },
+    "user_defined": {
+        "type": [
+            "學生票",
+            "愛心票",
+            "老人票",
+            "陪同票"
+        ],
+        "ticket": [
+            "票",
+            "車票"
+        ],
+        "__after": [
+            "之後",
+            "以後",
+            "後"
+        ],
+        "__arrive": [
+            "再到",
+            "到",
+            "到站",
+            "到達",
+            "可以到",
+            "可到",
+            "抵達",
+            "會到",
+            "能到"
+        ],
+        "__before": [
+            "之前",
+            "以前",
+            "前"
+        ],
+        "_symbols": [
+            "/"
+        ],
+        "identity": [
+            "大人",
+            "學生",
+            "小孩",
+            "小朋友",
+            "照顧者",
+            "老人",
+            "身障人士",
+            "長者",
+            "陪伴者"
+        ],
+        "__symbols": [
+            ":",
+            "："
+        ],
+        "times_alltype": [
+            "各",
+            "都"
+        ]
+    },
+    "utterance": {
+        "無偏好": {
+            "id": "047fdb08-a810-4ad5-857d-7dd36eb81964",
+            "argument": [
+                {
+                    "pos": "FUNC_negation",
+                    "text": "無",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "MODIFIER",
+                    "text": "偏好",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "坐哪都行": {
+            "id": "aa61fcbf-f878-4ad5-a1e5-73bb5487d38a",
+            "argument": [
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "坐著",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "躺",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "原坐",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "端坐",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "躺臥",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "躲",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "坐到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "站著",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "圍坐",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "坐下",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "站",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "坐",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_determiner",
+                    "text": "哪",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "QUANTIFIER",
+                    "text": "都",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "MODIFIER",
+                    "text": "行",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "座位都可以": {
+            "id": "3d046212-cf19-4d84-8dbf-308689d19a08",
+            "argument": [
+                {
+                    "pos": "ENTITY_noun",
+                    "text": "座位",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "QUANTIFIER",
+                    "text": "都",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "MODAL",
+                    "text": "可以",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "我想坐靠窗": {
+            "id": "1971a7e7-0310-4e6f-b305-0d9e5a12c6e4",
+            "argument": [
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "我",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "怕坐",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "愛搭",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "愛躺",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "寶貝",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "難賣",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "愛坐",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "常搭",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "開走了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "坐到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "討人厭",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "開走",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "想坐",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "靠窗",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        },
+        "我要走道的": {
+            "id": "b5156eba-ab70-4de5-95d2-d4b082104709",
+            "argument": [
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "我",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "想要",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "需要",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "想拿",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "想買",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "渴望",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "渴求",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "真要",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "得照",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "更要",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "要去",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "需",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "餓了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "餓",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "要",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "走道",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "的",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "選個窗邊位": {
+            "id": "59339dc4-8083-43cf-9415-dea062de0204",
+            "argument": [
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "任選",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "挑選",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "遴選",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "選取",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "選定",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "選用",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "取捨",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "選出",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到選",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "選出來",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "看選",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "選第",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "候選",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "當選",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "推選",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "選經",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "選中",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "選",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_eventQuantifier",
+                    "text": "個",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nounHead",
+                    "text": "窗",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_oov",
+                    "text": "邊位",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        },
+        "靠走道優先": {
+            "id": "38383b9b-694f-41ad-a288-81c62572425d",
+            "argument": [
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "靠走道",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "MODIFIER",
+                    "text": "優先",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "在走道的座位": {
+            "id": "db745771-f7e6-4c66-8e86-247f90ded678",
+            "argument": [
+                {
+                    "pos": "ASPECT",
+                    "text": "在",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "走道",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "的",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_noun",
+                    "text": "座位",
+                    "checked": false,
+                    "checkbox": true
+                }
+            ]
+        },
+        "我喜歡靠走道": {
+            "id": "9bab62d2-1a58-4cc0-a3d0-408521f77cf2",
+            "argument": [
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "我",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "喜愛",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "崇拜",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "愛戴",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "愛護",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "愛過",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "憐愛",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "深愛",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "熱愛",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "疼愛",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "相愛",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "篤愛",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "介意",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "愛吃",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "討厭",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "偏愛",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "迷戀",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "仰慕",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "愛玩",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "愛看",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "愛用",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "喜歡",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "靠走道",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        },
+        "給我靠窗座位": {
+            "id": "0c0612db-6d9d-412f-94b3-b3e31ebe33c0",
+            "argument": [
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "供給",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "帶給",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "提供",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "發放",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "資助",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "給老",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "交給",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "留給",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "給聖",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "分給",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "給阿",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "給了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "予",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "送給",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "給對",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "給",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "我",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "靠窗座位",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        },
+        "靠窗座位有嗎": {
+            "id": "e01c85f8-b4bc-49bc-9944-5f0b9d881d91",
+            "argument": [
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "靠窗座位",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "具有",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "兼有",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "存有",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "帶有",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "懷有",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "持有",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "擁有",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "有了",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "有著",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "保留",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "含有",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "有過",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "有同",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "存在著",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "存在",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "有",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "CLAUSE_YesNoQ",
+                    "text": "嗎",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "我的座位要靠窗": {
+            "id": "fbdd5613-3c57-4977-86aa-d5fb091f7b92",
+            "argument": [
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "我",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "的",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_noun",
+                    "text": "座位",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "想要",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "需要",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "想拿",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "想買",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "渴望",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "渴求",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "餓了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "得照",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "需",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "更要",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "要去",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "真要",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "餓",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "要",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "靠窗",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        },
+        "座位放在同個車廂": {
+            "id": "7f23397f-dc71-4489-b2cd-df0629c0ca19",
+            "argument": [
+                {
+                    "pos": "ENTITY_noun",
+                    "text": "座位",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "放下",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "放任",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "放入",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "放出",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "放告",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "放寬",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "放手",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "放水",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "放置",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "放羊",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "放血",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "放行",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "放走",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "放進",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "放過",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "放開",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "施放",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "解放",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "釋放",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "野放",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "任聽",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "任隨",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "拋開",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "擺脫",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "泄出",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "自拔",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "解脫",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "解除",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "釋出",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "綁",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "晾",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "擺",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "扔",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "埋",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "插",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "放到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "擺放",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "置放",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "放",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "在",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "同個",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "車廂",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        },
+        "我不要坐走道的位子": {
+            "id": "48e1aeb1-5e91-4b64-88f1-40ef4cc82f50",
+            "argument": [
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "我",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_negation",
+                    "text": "不要",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "坐著",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "躺",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "原坐",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "端坐",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "躺臥",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "躲",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "坐到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "站著",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "圍坐",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "坐下",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "站",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "坐",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "走道",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "的",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_noun",
+                    "text": "位子",
+                    "checked": false,
+                    "checkbox": true
+                }
+            ]
+        },
+        "我不需要特別的座位": {
+            "id": "77458624-0360-4a37-8bc3-94a8d6ecb782",
+            "argument": [
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "我",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_negation",
+                    "text": "不",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "想要",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "索要",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "要求",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "需求",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "想拿",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "想買",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "索求",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "索討",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "允許",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "願意",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "需",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "要",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "需要",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "MODIFIER",
+                    "text": "特別",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "的",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_noun",
+                    "text": "座位",
+                    "checked": false,
+                    "checkbox": true
+                }
+            ]
+        },
+        "大家的座位放在同車廂": {
+            "id": "8ba8f847-cf38-4efd-afa8-78152a6a1b63",
+            "argument": [
+                {
+                    "pos": "ENTITY_noun",
+                    "text": "大家",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "的",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_noun",
+                    "text": "座位",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "放下",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "放任",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "放入",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "放出",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "放告",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "放寬",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "放手",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "放水",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "放置",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "放羊",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "放血",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "放行",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "放走",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "放進",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "放過",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "放開",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "施放",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "解放",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "釋放",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "野放",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "任聽",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "任隨",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "拋開",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "擺脫",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "泄出",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "自拔",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "解脫",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "解除",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "釋出",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "扔",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "綁",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "擺放",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "插",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "擺",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "置放",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "埋",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "放到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "晾",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "放",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "在",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "同車廂",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        },
+        "我希望坐在走道的座位": {
+            "id": "50047f22-bc85-45e2-9db7-2afc33567a99",
+            "argument": [
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "我",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "寄望",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "想望",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "指望",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "期望",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "渴望",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "盼望",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "祈望",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "翹望",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "企盼",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "期冀",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "期待",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "期盼",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "祈願",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "祝願",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "翹盼",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "預想",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "期許",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想要",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "盼",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "冀望",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "希望",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "坐著",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "躺",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "原坐",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "端坐",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "躺臥",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "躲",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "坐到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "站著",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "圍坐",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "坐下",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "站",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "坐",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ASPECT",
+                    "text": "在",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "走道",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "的",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_noun",
+                    "text": "座位",
+                    "checked": false,
+                    "checkbox": true
+                }
+            ]
+        },
+        "大家的座位安排在同車廂": {
+            "id": "e3cdcb47-c525-4a26-a57d-15a82cc65d53",
+            "argument": [
+                {
+                    "pos": "ENTITY_noun",
+                    "text": "大家",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "的",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_noun",
+                    "text": "座位",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "安放",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "安置",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "安設",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "安頓",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "排列",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "排名",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "排序",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "排檢",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "排班",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "排行",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "排錯",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "編排",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "鋪排",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "企劃",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "創記錄",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "創造",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "協調",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "待遇",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "打算",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "接洽",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "搬鋪",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "搭配",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "操辦",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "擘劃",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "擺放",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "擺設",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "改編",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "歸入",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "籌劃",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "籌辦",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "約出",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "約見",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "編製",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "置放",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "興辦",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "規劃",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "設攤",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "開站",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "開辦",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "開闢",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "邀請",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "編配",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "分派",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "規畫",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "安排了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "挑選",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "調動",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "指派",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "安排",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_inner",
+                    "text": "在",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "同車廂",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        }
+    },
+    "alias": {},
+    "prompt": {
+        "user": "",
+        "system": "",
+        "assistant": ""
+    },
+    "document": []
+}

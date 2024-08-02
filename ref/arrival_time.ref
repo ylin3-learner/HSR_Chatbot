@@ -1,0 +1,1747 @@
+{
+    "language": "zh-tw",
+    "type": "basic",
+    "version": {
+        "atk": "v270",
+        "intent": "1.0"
+    },
+    "user_defined": {
+        "__symbols": [
+            ":",
+            "："
+        ]
+    },
+    "utterance": {
+        "8:00到": {
+            "id": "db61ba89-10f6-497b-bcd1-e53c2a98602b",
+            "argument": [
+                {
+                    "pos": "ENTITY_num",
+                    "text": "8",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "UserDefined",
+                    "text": ":",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_num",
+                    "text": "00",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "到了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到約",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到受",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到離",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到包",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到經過",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到隨",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到死",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到愛",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到經",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "到",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "8:00能到": {
+            "id": "60d3d92b-eb70-49e0-9487-24c296dc3130",
+            "argument": [
+                {
+                    "pos": "ENTITY_num",
+                    "text": "8",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "UserDefined",
+                    "text": ":",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_num",
+                    "text": "00",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "MODAL",
+                    "text": "能",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "到了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到約",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到受",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到離",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到包",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到經過",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到隨",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到死",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到愛",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到經",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "到",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "三點會到": {
+            "id": "48ddacf6-22d4-4170-a3b0-e81ba5945b76",
+            "argument": [
+                {
+                    "pos": "TIME_justtime",
+                    "text": "三點",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "MODAL",
+                    "text": "會",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "到了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到約",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到受",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到離",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到包",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到經過",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到隨",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到死",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到愛",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到經",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "到",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "8:00會抵達": {
+            "id": "b35f3428-f286-4075-a136-f3219a8466cb",
+            "argument": [
+                {
+                    "pos": "ENTITY_num",
+                    "text": "8",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "UserDefined",
+                    "text": ":",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_num",
+                    "text": "00",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "MODAL",
+                    "text": "會",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "到達",
+                            "level": "tier_1",
+                            "checked": true
+                        },
+                        {
+                            "text": "達到",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "達成",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "達標",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "來到",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "到來",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "返抵",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "趕到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到達了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "前往",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "飛抵",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "飛離",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "抵達了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "返回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到達",
+                            "level": "word2vec",
+                            "checked": true
+                        }
+                    ],
+                    "text": "抵達",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "九點前能到": {
+            "id": "332c5567-2bd4-470c-95c7-888be4af0880",
+            "argument": [
+                {
+                    "pos": "TIME_justtime",
+                    "text": "九點",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "RANGE_period",
+                    "text": "前",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "MODAL",
+                    "text": "能",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "到了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到約",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到受",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到離",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到包",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到經過",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到隨",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到死",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到愛",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到經",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "到",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "八點會抵達": {
+            "id": "ebfc86ea-7e71-4c04-ad4f-0e52bf529e88",
+            "argument": [
+                {
+                    "pos": "TIME_justtime",
+                    "text": "八點",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "MODAL",
+                    "text": "會",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "到達",
+                            "level": "tier_1",
+                            "checked": true
+                        },
+                        {
+                            "text": "達到",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "達成",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "達標",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "來到",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "到來",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "抵達了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到達了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "飛離",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "飛抵",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "返抵",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "返回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "趕到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "前往",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到達",
+                            "level": "word2vec",
+                            "checked": true
+                        }
+                    ],
+                    "text": "抵達",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "晚上八點到": {
+            "id": "315d7e26-1722-4edd-b8a3-8df1930c7580",
+            "argument": [
+                {
+                    "pos": "TIME_day",
+                    "text": "晚上",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "TIME_justtime",
+                    "text": "八點",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "到了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到約",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到受",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到離",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到包",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到經過",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到隨",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到死",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到愛",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到經",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "到",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "抵達時間7:30": {
+            "id": "cc930b7a-5c3e-4533-a9b5-2acb9847c707",
+            "argument": [
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "到達",
+                            "level": "tier_1",
+                            "checked": true
+                        },
+                        {
+                            "text": "達到",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "達成",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "達標",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "來到",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "到來",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "抵達了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到達了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "飛離",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "飛抵",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "返抵",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "返回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "趕到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "前往",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到達",
+                            "level": "word2vec",
+                            "checked": true
+                        }
+                    ],
+                    "text": "抵達",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_noun",
+                    "text": "時間",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_num",
+                    "text": "7",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "UserDefined",
+                    "text": ":",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_num",
+                    "text": "30",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        },
+        "八點整之前到": {
+            "id": "ad2529d0-cc7b-40b5-89ad-16741cc37193",
+            "argument": [
+                {
+                    "pos": "TIME_justtime",
+                    "text": "八點",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_oov",
+                    "text": "整",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "TIME_justtime",
+                    "text": "之前",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "到了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到約",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到受",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到離",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到包",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到經過",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到隨",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到死",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到愛",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到經",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "到",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "早上九點前到": {
+            "id": "66860b6c-767d-44f7-ac3d-a0cc0cb7eed3",
+            "argument": [
+                {
+                    "pos": "TIME_day",
+                    "text": "早上",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "TIME_justtime",
+                    "text": "九點",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "RANGE_period",
+                    "text": "前",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "到了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到約",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到受",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到離",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到包",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到經過",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到隨",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到死",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到愛",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到經",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "到",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "九月十號19:45到": {
+            "id": "ea64750d-b131-430d-95fe-fc9cf59a2673",
+            "argument": [
+                {
+                    "pos": "TIME_month",
+                    "text": "九月",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "TIME_day",
+                    "text": "十號",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_num",
+                    "text": "19",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "UserDefined",
+                    "text": ":",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_num",
+                    "text": "45",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "到了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到約",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到受",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到離",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到包",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到經過",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到隨",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到死",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到愛",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到經",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "到",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "九月十日11:00抵達": {
+            "id": "ac5f5ce0-e4c4-4dc2-a3c4-c3c9a43dc7f8",
+            "argument": [
+                {
+                    "pos": "TIME_month",
+                    "text": "九月",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "TIME_day",
+                    "text": "十日",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_num",
+                    "text": "11",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "UserDefined",
+                    "text": ":",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_num",
+                    "text": "00",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "到達",
+                            "level": "tier_1",
+                            "checked": true
+                        },
+                        {
+                            "text": "達到",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "達成",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "達標",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "來到",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "到來",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "抵達了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到達了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "飛離",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "飛抵",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "返抵",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "返回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "趕到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "前往",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到達",
+                            "level": "word2vec",
+                            "checked": true
+                        }
+                    ],
+                    "text": "抵達",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "到達時間晚上九點": {
+            "id": "1f951ffd-37e9-43b6-997d-b2a820366caf",
+            "argument": [
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "來到",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "到來",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "抵達",
+                            "level": "tier_1",
+                            "checked": true
+                        },
+                        {
+                            "text": "達到",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "達成",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "達標",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "駛出",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "抵達了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到達了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "返回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "走到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "越過",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "駛進",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "跨過",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "抵達",
+                            "level": "word2vec",
+                            "checked": true
+                        },
+                        {
+                            "text": "越",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "跨",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "到達",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_noun",
+                    "text": "時間",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "MODIFIER",
+                    "text": "晚",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "RANGE_locality",
+                    "text": "上",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "TIME_justtime",
+                    "text": "九點",
+                    "checked": true,
+                    "checkbox": false
+                }
+            ]
+        },
+        "抵達時間晚上8：00": {
+            "id": "e27db6bf-4aaf-4ca9-83c1-cd515f6db87d",
+            "argument": [
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "到達",
+                            "level": "tier_1",
+                            "checked": true
+                        },
+                        {
+                            "text": "達到",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "達成",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "達標",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "來到",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "到來",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "抵達了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到達了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "飛離",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "飛抵",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "返抵",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "返回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "趕到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "前往",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到達",
+                            "level": "word2vec",
+                            "checked": true
+                        }
+                    ],
+                    "text": "抵達",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_noun",
+                    "text": "時間",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "MODIFIER",
+                    "text": "晚",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "RANGE_locality",
+                    "text": "上",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_num",
+                    "text": "8",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "UserDefined",
+                    "text": "：",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_num",
+                    "text": "00",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        },
+        "一月一日3:00能抵達": {
+            "id": "a479be5d-463b-4134-b48b-ed0dbff73d88",
+            "argument": [
+                {
+                    "pos": "TIME_month",
+                    "text": "一月",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "TIME_day",
+                    "text": "一日",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_num",
+                    "text": "3",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "UserDefined",
+                    "text": ":",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_num",
+                    "text": "00",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "MODAL",
+                    "text": "能",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "到達",
+                            "level": "tier_1",
+                            "checked": true
+                        },
+                        {
+                            "text": "達到",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "達成",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "達標",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "來到",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "到來",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "抵達了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到達了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "飛離",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "飛抵",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "返抵",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "返回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "趕到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "前往",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到達",
+                            "level": "word2vec",
+                            "checked": true
+                        }
+                    ],
+                    "text": "抵達",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "九月十號八點整前到": {
+            "id": "7ec72d2f-c8dd-482c-8a2b-617366489b4c",
+            "argument": [
+                {
+                    "pos": "TIME_month",
+                    "text": "九月",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "TIME_day",
+                    "text": "十號",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "TIME_justtime",
+                    "text": "八點",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_oov",
+                    "text": "整",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "RANGE_locality",
+                    "text": "前",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "到了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到約",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到受",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到離",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到包",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到經過",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到隨",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到死",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到愛",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到經",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "到",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "抵達時間九月十日11:00": {
+            "id": "dbea18a9-3a02-4a08-ad0e-75248302f3d0",
+            "argument": [
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "到達",
+                            "level": "tier_1",
+                            "checked": true
+                        },
+                        {
+                            "text": "達到",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "達成",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "達標",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "來到",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "到來",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "抵達了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到達了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "飛離",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "飛抵",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "返抵",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "返回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "趕到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "前往",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到達",
+                            "level": "word2vec",
+                            "checked": true
+                        }
+                    ],
+                    "text": "抵達",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_noun",
+                    "text": "時間",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "TIME_month",
+                    "text": "九月",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "TIME_day",
+                    "text": "十日",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_num",
+                    "text": "11",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "UserDefined",
+                    "text": ":",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_num",
+                    "text": "00",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        }
+    },
+    "alias": {},
+    "prompt": {},
+    "document": []
+}

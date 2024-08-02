@@ -1,0 +1,432 @@
+{
+    "language": "zh-tw",
+    "type": "basic",
+    "version": {
+        "atk": "v270",
+        "intent": "1.0"
+    },
+    "user_defined": {
+        "type": [
+            "學生票",
+            "愛心票",
+            "全票",
+            "半票",
+            "優待票",
+            "老年票",
+            "兒童票",
+            "敬老票"
+        ]
+    },
+    "utterance": {
+        "一張普通票": {
+            "id": "bf5f6c14-ddea-4865-93a3-9f2d9f465fe8",
+            "argument": [
+                {
+                    "pos": "ENTITY_classifier",
+                    "text": "一張",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "普通票",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        },
+        "優待票兩張": {
+            "id": "77da5a18-8491-401d-b25d-2e3976680160",
+            "argument": [
+                {
+                    "pos": "UserDefined",
+                    "text": "優待票",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_classifier",
+                    "text": "兩張",
+                    "checked": true,
+                    "checkbox": false
+                }
+            ]
+        },
+        "買三張全票": {
+            "id": "820de736-cb42-43e4-9d07-21d03f47f37c",
+            "argument": [
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "採買",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "收買",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "買進",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "購買",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "採辦",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "購得",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "買東西",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "吃",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "賣",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "買不起",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "買了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "買不到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "買來",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "買到",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想買",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "買",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_classifier",
+                    "text": "三張",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "UserDefined",
+                    "text": "全票",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        },
+        "給我六張敬老票": {
+            "id": "2eab1971-8def-45a7-a70a-0a0895888254",
+            "argument": [
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "供給",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "帶給",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "提供",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "發放",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "資助",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "給對",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "分給",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "留給",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "交給",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "送給",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "給了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "給阿",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "予",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "給老",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "給聖",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "給",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "我",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_classifier",
+                    "text": "六張",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "UserDefined",
+                    "text": "敬老票",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        },
+        "兩張全票三張半票": {
+            "id": "12d7d73f-df25-4fba-a9df-152f5cea27e0",
+            "argument": [
+                {
+                    "pos": "ENTITY_classifier",
+                    "text": "兩張",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "UserDefined",
+                    "text": "全票",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_classifier",
+                    "text": "三張",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "UserDefined",
+                    "text": "半票",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        },
+        "普通票一張兒童票一張": {
+            "id": "b7935bea-4e27-42b3-be7a-0c3d552538db",
+            "argument": [
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "普通票",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_classifier",
+                    "text": "一張",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "UserDefined",
+                    "text": "兒童票",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_classifier",
+                    "text": "一張",
+                    "checked": true,
+                    "checkbox": false
+                }
+            ]
+        },
+        "我需要一張普通票和一張學生票": {
+            "id": "44183b3c-1612-4010-9592-c204269ec6d7",
+            "argument": [
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "我",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "想要",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "索要",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "要求",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "需求",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "想拿",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "想買",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "索求",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "索討",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "允許",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "願意",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "需",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "要",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "需要",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_classifier",
+                    "text": "一張",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "普通票",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "FUNC_conjunction",
+                    "text": "和",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_classifier",
+                    "text": "一張",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "UserDefined",
+                    "text": "學生票",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        }
+    },
+    "alias": {},
+    "prompt": {},
+    "document": []
+}
